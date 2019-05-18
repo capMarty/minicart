@@ -1,2 +1,2 @@
 -- выбираем пользователь 
-"SELECT * FROM users RIGHT JOIN object ON users.object_id = object.id"
+"SELECT * FROM users INNER JOIN object ON users.object_id = object.id"
