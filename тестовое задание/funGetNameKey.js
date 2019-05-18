@@ -1,18 +1,19 @@
+
 function getNameKey () {
-	
+
 
 	document.onkeydown = function (event) {
 
-		let codeKey = event.key;
+		let keyCode = event.keyCode;
 		
-		if (codeKey == 'ArrowUp') 
-			alert(`Была нажата клавиша: вверх (${codeKey})`);
-		if (codeKey == 'ArrowDown') 
-			alert(`Была нажата клавиша: вниз (${codeKey})`);
-		if (codeKey == 'ArrowLeft') 
-			alert(`Была нажата клавиша: влево (${codeKey})`);
-		if (codeKey == 'ArrowRight') 
-			alert(`Была нажата клавиша: вправо (${codeKey})`);
-	} 
+		if (keyCode === 38)
+			alert(`Была нажата клавиша: вверх`);
+		if (keyCode === 40)
+			alert(`Была нажата клавиша: вниз`);
+		if (keyCode === 37)
+			alert(`Была нажата клавиша: влево`);
+		if (keyCode === 39)
+			alert(`Была нажата клавиша: вправо`);
+	}
 }
 
