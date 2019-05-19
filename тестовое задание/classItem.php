@@ -74,14 +74,15 @@ final class item{
         if (property_exists($this, $property)) {
 
             //check of the entered value for fullness and type of value
-            if ($value != '')
+            if ($value != ''){
 
                 if (is_string($value) && $property === 'name')
                     $this->$property = (string)$value;
 
                 if (is_int($value) && $property === 'status')
                 $this->$property = (int)$value;
-
+	    }
+	     
 
         }
     }
