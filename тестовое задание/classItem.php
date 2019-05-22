@@ -96,7 +96,7 @@ final class item{
             $getDataDB = $this->getDataDB;
 
             //compare values
-		if ($getDataDB['nameFromDB'] !== $this->name)
+	if ($getDataDB['nameFromDB'] !== $this->name)
             
             //if the data has been changed, do UPDATE in the database
             $getDataDB['nameFromDB'] = $this->name;
