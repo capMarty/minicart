@@ -1,5 +1,10 @@
 <?php
-
+/**
+ * Class item
+ * class for initializing data ( method init() ) from the database, 
+ * changing (magic method __set()) 
+ * and saving ( method save() ) in case of a change
+ */
 final class item{
 
     private $id;
