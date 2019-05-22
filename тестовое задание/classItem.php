@@ -49,8 +49,7 @@ final class item{
     {  
         if (property_exists($this, $property))
         {
-          try
-          {
+          try {
               if (!($this->$property))
                   throw new Exception("Error. No data found!");
               else
