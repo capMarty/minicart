@@ -28,8 +28,8 @@ final class item{
             //get data from db where in
             //$ nameFromDB - is the result of the query field name
             //$ statusFromDB - is the result of the query field status
-            //$nameFromDB = "данные из DB";
-            //$statusFromDB = 11964;
+            $nameFromDB = "данные из DB";
+            $statusFromDB = 11964;
 
             //create an array for storage
             $getDataDB['nameFromDB'] = $nameFromDB;
