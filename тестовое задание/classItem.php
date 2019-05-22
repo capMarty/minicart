@@ -5,7 +5,6 @@ final class item{
     private $id;
     private $name;
     private $status;
-    private $changed;
     // create a variable to determine the initialization of the function call
     private $isCallInit = false ;
     // create a variable to store values ​​from DB
