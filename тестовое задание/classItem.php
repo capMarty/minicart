@@ -1,6 +1,9 @@
 <?php
 /**
  * Class item
+ * The class instance accepts the user id.
+ * Without the implementation of working with the database (imagine that
+ * the class is already working with the database).
  * class for initializing data ( method init() ) from the database, 
  * changing (magic method __set()) 
  * and saving ( method save() ) in case of a change
